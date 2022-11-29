@@ -1,0 +1,63 @@
+.siderbar {
+    width: 20%;
+    height: 100vh;
+    background-color: #f1f1f1;
+    position: relative;
+
+    &.active {
+        width: 3%;
+
+        .list {
+            li {
+                a {
+                    i{
+                        font-size: 20px;
+                    }
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .iconarrow {
+        position: absolute;
+        right: 0;
+        font-size: 30px;
+        color: #000;
+    }
+
+    .list {
+        margin: 0;
+        padding: 0 0.5rem;
+        margin: 50px 0 0 0;
+        li {
+            list-style-type: none;
+
+            a {
+                color: #000;
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                font-weight: 700;
+                i {
+                    font-size: 20px;
+                    margin: 0 15px 0 0;
+                }
+            }
+        }
+    }
+    .images{
+        display: flex;
+        .box{
+            width: 50%;
+            border: 1px solid #cacaca;
+            >img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
