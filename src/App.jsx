@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import ScreenImage from "./pages/screen";
 import MainLayout from "./layout/MainLayout";
-import Home from "./pages/home";
 
 function LayoutRoute({ component: Component, layout: Layout, ...rest }) {
   return (
@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <LayoutRoute path="/" component={Home} layout={MainLayout} />
+        <LayoutRoute path="/" component={ScreenImage} layout={MainLayout} />
       </Switch>
     </div>
   );

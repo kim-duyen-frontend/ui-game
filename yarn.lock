@@ -785,6 +785,11 @@
   "resolved" "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
   "version" "6.3.0"
 
+"simple-drag-and-drop@^1.0.5":
+  "integrity" "sha512-V6npIBrW96RXYS3Za5H4aHIEdc4gQQhlILbVbiYjZKOsPietsJweBBTOJezLnNff5h13zeAtA99IxqJbSrKjfw=="
+  "resolved" "https://registry.npmjs.org/simple-drag-and-drop/-/simple-drag-and-drop-1.0.5.tgz"
+  "version" "1.0.5"
+
 "source-map-js@^1.0.2", "source-map-js@>=0.6.2 <2.0.0":
   "integrity" "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw=="
   "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"

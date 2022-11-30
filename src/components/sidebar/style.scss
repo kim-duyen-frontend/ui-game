@@ -1,12 +1,10 @@
 .siderbar {
-    width: 20%;
+    max-width: 10%;
     height: 100vh;
     background-color: #f1f1f1;
     position: relative;
 
     &.active {
-        width: 3%;
-
         .list {
             li {
                 a {
@@ -39,24 +37,13 @@
                 color: #000;
                 display: flex;
                 align-items: center;
+                padding: 10px 0;
                 font-size: 15px;
                 font-weight: 700;
                 i {
                     font-size: 20px;
                     margin: 0 15px 0 0;
                 }
-            }
-        }
-    }
-    .images{
-        display: flex;
-        .box{
-            width: 50%;
-            border: 1px solid #cacaca;
-            >img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
             }
         }
     }

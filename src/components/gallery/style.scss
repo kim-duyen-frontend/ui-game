@@ -1,0 +1,19 @@
+.images{
+    display: flex;
+    max-width: 400px;
+    height: 100vh;
+    border: 1px solid #f1f1f1;
+    column-gap: 10px;
+    row-gap: 10px;
+    .box{
+        width: 50%;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        >img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
